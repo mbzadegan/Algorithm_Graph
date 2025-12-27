@@ -1,4 +1,5 @@
-# In SageMath, while there is no native bellman_ford method built directly into the Graph class (which primarily uses Dijkstra's algorithm for shortest paths), you can implement it using Sage's graph data structures and methods.
+# In SageMath, while there is no native bellman_ford method built directly into the Graph class (which primarily uses Dijkstra's algorithm for shortest paths), 
+# You can implement it using Sage's graph data structures and methods.
 # The Bellman-Ford algorithm finds the shortest path from a single source to all other vertices in a weighted graph, even with negative edge weights, and can detect negative cycles.
 
 
