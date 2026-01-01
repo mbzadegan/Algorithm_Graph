@@ -1,9 +1,9 @@
 # PhD Research Portfolio: Cryptography, Algorithms & HPC
 
 ### **Author:** Sayed Mohammad Badiezadegan
-**Location:** Canada (Resident since May 2019)
-**Education:** Master of Science (MSc) in Cryptography
-**Publications:** Author of *FreeBSD Customization for High‑Performance Computing*
+* **Location:** Canada (Resident since May 2019)
+* **Education:** Master of Science (MSc) in Cryptography
+* **Publications:** Author of *FreeBSD Customization for High‑Performance Computing*
 
 ---
 
