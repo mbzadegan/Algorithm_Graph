@@ -20,4 +20,4 @@ The codebase demonstrates my ability not only to understand complex mathematical
 * **Domain:** Cryptographic Primitives, Number Theory, Linear Algebra, Algorithm analysis.
 
 ---
-*Note: This repository is a living document of my research experiments. Some implementations are for educational/research analysis purposes.*
+*Note: This repository is a living document of my research experiments. Some implementations are for educational/research analysis purposes only.*
