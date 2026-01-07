@@ -1,16 +1,16 @@
-// A pure C implementation of a Branch and Bound solver for 0-1 Integer Programming (where variables are binary). 
-// This captures the core logic of ILP—branching on variables and pruning the search tree—without requiring thousands of lines of code.
-// The Algorithm: Branch and Bound
-//
-// We will solve a maximization problem. The algorithm explores a tree of possible variable assignments (0 or 1).
-//     Branch: We define the value of one variable at a time (recurse).
-//     Bound (Pruning): At each step, we calculate the "best possible" outcome for the remaining variables. If that potential outcome is worse than a solution we've already found, we stop (prune) that branch.
-//     Feasibility: We check if the current constraints are violated.
+/* A pure C implementation of a Branch and Bound solver for 0-1 Integer Programming (where variables are binary). 
+  This captures the core logic of ILP—branching on variables and pruning the search tree—without requiring thousands of lines of code.
+  The Algorithm: Branch and Bound 
 
-// C Code: 0-1 ILP Solver, This code solves a problem with:
-// $N$ Variables (binary).
-// $M$ Constraints ($Ax \le b$).
-// An objective function to maximize ($c^T x$).
+  We will solve a maximization problem. The algorithm explores a tree of possible variable assignments (0 or 1).
+       Branch: We define the value of one variable at a time (recurse).
+       Bound (Pruning): At each step, we calculate the "best possible" outcome for the remaining variables. If that potential outcome is worse than a solution we've already found, we stop (prune) that branch.
+       Feasibility: We check if the current constraints are violated.
+
+   C Code: 0-1 ILP Solver, This code solves a problem with:
+   $N$ Variables (binary).
+   $M$ Constraints ($Ax \le b$).
+   An objective function to maximize ($c^T x$). */
 
 
 #include <stdio.h>
